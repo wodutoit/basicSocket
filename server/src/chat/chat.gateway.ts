@@ -13,7 +13,7 @@ export class ChatGateway implements OnGatewayConnection, OnGatewayDisconnect {
 
         // Notify connected clients of current users
         this.server.emit('users', this.users);
-        console.log('connection');
+        console.log(`connection user count: ${this.users}`);
 
     }
 
