@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { ChatModule } from './chat/chat.module';
+import { MutexModule } from './mutex/mutex.module';
 
 @Module({
-  imports: [ChatModule],
+  imports: [MutexModule],
 })
 export class AppModule {}
