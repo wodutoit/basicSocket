@@ -13,4 +13,4 @@ $ npm run start
 
 ## Client
 
-open client by running clinet/index.html in the browser
+open client by running client/index.html in the browser
